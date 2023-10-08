@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.at_num {
+    margin-left: 48px;
+}
+
+.symbol {
+    margin-top: -10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.name,
+.percentange {
+    text-align: center;
+    font-size: 13px;
+}
+
+.row {
+    display: flex;
+}
+
+.bgPinkOrange {
+    background-color: rgb(218, 97, 97);
+}
+
+.bgOrange {
+    background-color: orange;
+}
+
+.bgRedOrange {
+    background-color: rgb(255, 81, 0);
+}
+
+.bgAqua {
+    background-color: aqua;
+}
+
+.bgGrey {
+    background-color: grey;
+}
+
+.bgPink {
+    background-color: pink;
+}
+.bgYellow{
+    background-color: yellow;
+}
+
+.col , .cole {
+    width: 75px;
+    height: 75px;
+    margin: 2px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.col:hover{
+    width:120px;
+    height: 120px;
+    border: 5px solid black;
+}
